@@ -19,7 +19,7 @@ $definebone "ValveBiped.Bip01_L_Finger41" "lft_pnky_2" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger42" "lft_pnky_3" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_UpperArm" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Forearm" "rt_elbo" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "ValveBiped.Bip01_R_Hand" "rt_wrst" 2 1 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "rt_wrst" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger0" "rt_thmb_1" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger01" "rt_thmb_2" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger02" "rt_thmb_3" 0 0 0 0 0 0 0 0 0 0 0 0
