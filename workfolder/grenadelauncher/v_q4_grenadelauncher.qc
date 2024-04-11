@@ -2,12 +2,15 @@
 
 $modelname "weapons\quake4\v_q4_grenadelauncher.mdl"
 
+$scale 1.75
+
 $bodygroup "gun"
 {
 	studio "md5mesh.001.smd"
 }
 $bodygroup "arms"
 {
+	blank
 	studio "md5mesh.smd"
 }
 
@@ -88,6 +91,7 @@ $definebone "rt_thmb_1" "rt_wrst" -0.133749 -0.924482 0.736151 -4.682556 -81.879
 $definebone "rt_thmb_2" "rt_thmb_1" 0.694773 0 -0.000001 -0.007849 8.453075 0.434646 0 0 0 0 0 0
 $definebone "rt_thmb_3" "rt_thmb_2" 0.569563 -0.000001 0 -5.683225 48.265907 -0.685028 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_grenadelauncher_anims\idle.smd"
