@@ -1,6 +1,8 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_hyperblaster.mdl"
+$modelname "weapons\quake4\c_q4_hyperblaster.mdl"
+
+$scale 1.75
 
 $bodygroup "gun"
 {
@@ -8,7 +10,7 @@ $bodygroup "gun"
 }
 $bodygroup "arms"
 {
-	studio "md5mesh.smd"
+	blank
 }
 $bodygroup "can"
 {
@@ -108,6 +110,7 @@ $definebone "rt_thmb_2" "rt_thmb_1" 0.694774 -0.000002 0 -0.007792 39.376809 0.4
 $definebone "rt_thmb_3" "rt_thmb_2" 0.569563 0.000003 0.000001 -5.692621 15.979108 -0.691273 0 0 0 0 0 0
 $definebone "ammo_can" "rt_wrst" -4.403723 -4.104992 3.757938 4.60108 -59.026686 81.311018 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_hyperblaster_anims\idle.smd"

@@ -1,6 +1,8 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_nailgun.mdl"
+$modelname "weapons\quake4\c_q4_nailgun.mdl"
+
+$scale 1.75
 
 $bodygroup "gun"
 {
@@ -13,7 +15,7 @@ $bodygroup "scope"
 }
 $bodygroup "arms"
 {
-	studio "md5mesh.008.smd"
+	blank
 }
 $bodygroup "clip"
 {
@@ -139,6 +141,7 @@ $definebone "nailgun_firingpin_nuckle_4" "nailgun_firingpin_4" 1.175882 -0.24374
 $definebone "nailgun_firingpin_6" "nailgun_rotating_firing_pins" 0.364262 1.338525 0.822221 17.475609 -30.819057 -153.280414 0 0 0 0 0 0
 $definebone "nailgun_firingpin_nuckle_6" "nailgun_firingpin_6" 1.175879 -0.243741 0.000041 0.000009 0 -0.000004 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_nailgun_anims\idle.smd"

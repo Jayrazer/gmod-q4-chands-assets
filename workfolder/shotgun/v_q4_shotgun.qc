@@ -1,6 +1,8 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_shotgun.mdl"
+$modelname "weapons\quake4\c_q4_shotgun.mdl"
+
+$scale 1.75
 
 $bodygroup "gun"
 {
@@ -8,7 +10,7 @@ $bodygroup "gun"
 }
 $bodygroup "arms"
 {
-	studio "md5mesh.smd"
+	blank
 }
 $bodygroup "clip"
 {
@@ -98,6 +100,7 @@ $definebone "rt_thmb_2" "rt_thmb_1" 0.798988 0 0.000003 0 20.617713 -0.000063 0 
 $definebone "rt_thmb_3" "rt_thmb_2" 0.654999 0.000001 -0.000003 0.002923 9.357375 -0.017998 0 0 0 0 0 0
 $definebone "clip" "rt_wrst" 15.071412 1.214791 1.062907 0.000002 -0.000003 -0.000002 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_shotgun_anims\idle.smd"
