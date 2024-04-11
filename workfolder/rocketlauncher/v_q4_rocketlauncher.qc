@@ -1,6 +1,8 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_rocketlauncher.mdl"
+$modelname "weapons\quake4\c_q4_rocketlauncher.mdl"
+
+$scale 1.75
 
 $bodygroup "gun"
 {
@@ -8,7 +10,7 @@ $bodygroup "gun"
 }
 $bodygroup "arms"
 {
-	studio "md5mesh.smd"
+	blank
 }
 $bodygroup "mod"
 {
@@ -110,6 +112,7 @@ $definebone "rt_thmb_1" "rt_wrst" -0.133749 -0.92448 0.73615 -0.154698 -86.07751
 $definebone "rt_thmb_2" "rt_thmb_1" 0.694773 0.000001 0 -0.007333 39.37687 0.436936 0 0 0 0 0 0
 $definebone "rt_thmb_3" "rt_thmb_2" 0.569561 0 0.000006 -5.692792 15.979219 -0.693337 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_rocketlauncher_anims\idle.smd"
