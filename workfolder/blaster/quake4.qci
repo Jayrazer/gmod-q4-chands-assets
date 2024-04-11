@@ -21,7 +21,7 @@ $definebone "ValveBiped.Bip01_R_Clavicle" "rt_elbo" 0 0 0 180 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_UpperArm" "rt_elbo" 20 0 0 0 180 180 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Forearm" "rt_elbo" 4 0 0 180 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Hand" "rt_wrst" 0 1 0 180 45 0 0 0 0 0 0 0
-$definebone "ValveBiped.Bip01_R_Finger0" "rt_thmb_1" 0 0.75 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "rt_thmb_1" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger01" "rt_thmb_2" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger02" "rt_thmb_3" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger1" "rt_ndx_1" 0 0 0 180 180 0 0 0 0 0 0 0

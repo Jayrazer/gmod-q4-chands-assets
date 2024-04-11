@@ -2,7 +2,7 @@
 
 $modelname "weapons\quake4\c_q4_blaster.mdl"
 
-$scale 1.5
+$scale 1.65
 
 $bodygroup "gun"
 {

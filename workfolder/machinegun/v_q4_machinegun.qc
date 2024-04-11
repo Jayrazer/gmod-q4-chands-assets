@@ -2,7 +2,7 @@
 
 $modelname "weapons\quake4\c_q4_machinegun.mdl"
 
-$scale 2
+$scale 1.65
 
 $bodygroup "gun"
 {
@@ -15,7 +15,6 @@ $bodygroup "scope"
 $bodygroup "arms"
 {
 	blank
-	studio "md5mesh.002.smd"
 }
 $bodygroup "clip"
 {
@@ -93,7 +92,7 @@ $definebone "rt_thmb_3" "rt_thmb_2" -0.569563 -0.000021 0.000013 0.000049 9.3603
 $definebone "clip_jt" "origin" 0 -0.948243 -0.778408 0 0 89.999982 0 0 0 0 0 0
 $definebone "flashlight" "gun_jt" -9.889821 -0.024778 0 0 -178.070299 0 0 0 0 0 0 0
 
-$include "quake4_v2.qci"
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_machinegun_anims\idle.smd"
