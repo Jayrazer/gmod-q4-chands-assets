@@ -1,6 +1,8 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_railgun.mdl"
+$modelname "weapons\quake4\c_q4_railgun.mdl"
+
+$scale 1.75
 
 $bodygroup "gun"
 {
@@ -8,7 +10,7 @@ $bodygroup "gun"
 }
 $bodygroup "arms"
 {
-	studio "md5mesh.smd"
+	blank
 }
 $bodygroup "slug"
 {
@@ -105,6 +107,7 @@ $definebone "lft_thmb_2" "lft_thmb_1" 0.694843 0.000002 0.000001 -0.00001 9.6113
 $definebone "lft_thmb_3" "lft_thmb_2" 0.569486 0 -0.000002 -0.000009 -0.639528 -0.000007 0 0 0 0 0 0
 $definebone "srocket_ammo" "rt_wrst" -12.383101 -7.675029 0.969412 14.369953 -60.76206 80.245775 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_railgun_anims\idle.smd"
