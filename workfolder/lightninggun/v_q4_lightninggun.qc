@@ -1,10 +1,12 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_lightninggun.mdl"
+$modelname "weapons\quake4\c_q4_lightninggun.mdl"
+
+$scale 1.75
 
 $bodygroup "gun"
 {
-	studio "mesh.smd"
+	studio "mesh_noarms.smd"
 }
 $bodygroup "beams"
 {
@@ -94,6 +96,7 @@ $definebone "rt_thmb_1" "rt_wrst" -0.133747 -0.924481 0.736153 -4.6825 -81.87957
 $definebone "rt_thmb_2" "rt_thmb_1" 0.694773 0.000001 0 -0.007844 8.453019 0.434705 0 0 0 0 0 0
 $definebone "rt_thmb_3" "rt_thmb_2" 0.569564 -0.000001 0 -5.684199 48.266075 -0.685826 0 0 0 0 0 0
 
+$include "quake4.qci"
 
 $sequence "idle" {
 	"v_q4_lightninggun_anims\idle.smd"
