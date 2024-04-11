@@ -1,0 +1,293 @@
+// Created by Crowbar 0.74
+====== File Size ======
+	24,628
+====== File Seek Log ======
+	0 - 79 MDL File Header 00 (MDL version: 48); MDL File Header 00 (MDL version: 48)
+	80 - 407 MDL File Header 01; MDL File Header 01
+	408 - 663 MDL File Header 02; MDL File Header 02
+	664 - 8,655 theMdlFileData.theBones 37
+	8,656 - 8,747 theMdlFileData.theAttachments 1
+	8,748 - 8,759 theMdlFileData.theHitboxSets 1
+	8,760 - 9,779 aHitboxSet.theHitboxes 15
+	9,780 - 9,816 theMdlFileData.theBoneTableByName
+	9,817 - 9,819 [ERROR] Unread bytes (all zeroes) [ 00 00 00 ]
+	9,820 - 10,319 theMdlFileData.theAnimationDescs 5
+	10,320 - 10,329 anAnimationDesc.anAnimation  [@idle] (frameCount = 49; sectionFrameCount = 49)
+	10,330 - 10,339 anAnimationDesc.anAnimation  [@idle] (frameCount = 49; sectionFrameCount = 49)
+	10,340 - 10,439 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 49)
+	10,440 - 10,539 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 49)
+	10,540 - 10,639 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 49)
+	10,640 - 10,649 anAnimationDesc.anAnimation  [@idle] (frameCount = 49; sectionFrameCount = 49)
+	10,650 - 10,741 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 49)
+	10,742 - 10,839 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 49)
+	10,840 - 10,939 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 49)
+	10,940 - 10,949 anAnimationDesc.anAnimation  [@idle] (frameCount = 49; sectionFrameCount = 49)
+	10,950 - 11,049 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 49)
+	11,050 - 11,149 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 49)
+	11,150 - 11,249 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 49)
+	11,250 - 11,259 anAnimationDesc.anAnimation  [@idle] (frameCount = 49; sectionFrameCount = 49)
+	11,260 - 11,359 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 49)
+	11,360 - 11,459 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 49)
+	11,460 - 11,559 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 49)
+	11,560 - 11,563 anAnimationDesc.anAnimation [@idle] (unused empty data structure at the end of the list)
+	11,564 - 11,567 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 ]
+	11,568 - 11,577 anAnimationDesc.anAnimation  [@raise] (frameCount = 10; sectionFrameCount = 10)
+	11,578 - 11,593 anAnimationDesc.anAnimation  [@raise] (frameCount = 10; sectionFrameCount = 10)
+	11,594 - 11,615 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 10)
+	11,616 - 11,637 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 10)
+	11,638 - 11,659 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 10)
+	11,660 - 11,681 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 10)
+	11,682 - 11,701 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 10)
+	11,702 - 11,723 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 10)
+	11,724 - 11,733 anAnimationDesc.anAnimation  [@raise] (frameCount = 10; sectionFrameCount = 10)
+	11,734 - 11,755 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 10)
+	11,756 - 11,777 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 10)
+	11,778 - 11,799 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 10)
+	11,800 - 11,809 anAnimationDesc.anAnimation  [@raise] (frameCount = 10; sectionFrameCount = 10)
+	11,810 - 11,831 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 10)
+	11,832 - 11,853 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 10)
+	11,854 - 11,875 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 10)
+	11,876 - 11,885 anAnimationDesc.anAnimation  [@raise] (frameCount = 10; sectionFrameCount = 10)
+	11,886 - 11,907 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 10)
+	11,908 - 11,929 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 10)
+	11,930 - 11,951 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 10)
+	11,952 - 11,961 anAnimationDesc.anAnimation  [@raise] (frameCount = 10; sectionFrameCount = 10)
+	11,962 - 11,983 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 10)
+	11,984 - 12,005 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 10)
+	12,006 - 12,027 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 10)
+	12,028 - 12,031 anAnimationDesc.anAnimation [@raise] (unused empty data structure at the end of the list)
+	12,032 - 12,041 anAnimationDesc.anAnimation  [@fire] (frameCount = 3; sectionFrameCount = 3)
+	12,042 - 12,057 anAnimationDesc.anAnimation  [@fire] (frameCount = 3; sectionFrameCount = 3)
+	12,058 - 12,065 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 3)
+	12,066 - 12,073 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 3)
+	12,074 - 12,081 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 3)
+	12,082 - 12,097 anAnimationDesc.anAnimation  [@fire] (frameCount = 3; sectionFrameCount = 3)
+	12,098 - 12,105 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 3)
+	12,106 - 12,113 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 3)
+	12,114 - 12,121 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 3)
+	12,122 - 12,125 anAnimationDesc.anAnimation [@fire] (unused empty data structure at the end of the list)
+	12,126 - 12,127 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	12,128 - 12,137 anAnimationDesc.anAnimation  [@lower] (frameCount = 5; sectionFrameCount = 5)
+	12,138 - 12,153 anAnimationDesc.anAnimation  [@lower] (frameCount = 5; sectionFrameCount = 5)
+	12,154 - 12,165 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 5)
+	12,166 - 12,177 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 5)
+	12,178 - 12,189 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 5)
+	12,190 - 12,201 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 5)
+	12,202 - 12,213 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 5)
+	12,214 - 12,225 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 5)
+	12,226 - 12,235 anAnimationDesc.anAnimation  [@lower] (frameCount = 5; sectionFrameCount = 5)
+	12,236 - 12,247 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 5)
+	12,248 - 12,259 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 5)
+	12,260 - 12,271 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 5)
+	12,272 - 12,281 anAnimationDesc.anAnimation  [@lower] (frameCount = 5; sectionFrameCount = 5)
+	12,282 - 12,293 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 5)
+	12,294 - 12,305 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 5)
+	12,306 - 12,317 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 5)
+	12,318 - 12,327 anAnimationDesc.anAnimation  [@lower] (frameCount = 5; sectionFrameCount = 5)
+	12,328 - 12,339 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 5)
+	12,340 - 12,351 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 5)
+	12,352 - 12,363 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 5)
+	12,364 - 12,373 anAnimationDesc.anAnimation  [@lower] (frameCount = 5; sectionFrameCount = 5)
+	12,374 - 12,385 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 5)
+	12,386 - 12,397 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 5)
+	12,398 - 12,409 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 5)
+	12,410 - 12,413 anAnimationDesc.anAnimation [@lower] (unused empty data structure at the end of the list)
+	12,414 - 12,415 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	12,416 - 12,425 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	12,426 - 12,441 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	12,442 - 12,479 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	12,480 - 12,517 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	12,518 - 12,555 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	12,556 - 12,639 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 41)
+	12,640 - 12,721 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 41)
+	12,722 - 12,805 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 41)
+	12,806 - 12,815 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	12,816 - 12,889 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	12,890 - 12,963 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	12,964 - 13,037 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	13,038 - 13,047 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	13,048 - 13,079 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	13,080 - 13,095 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	13,096 - 13,179 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	13,180 - 13,263 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	13,264 - 13,347 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	13,348 - 13,431 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 41)
+	13,432 - 13,509 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 41)
+	13,510 - 13,569 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 41)
+	13,570 - 13,579 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	13,580 - 13,663 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	13,664 - 13,747 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	13,748 - 13,831 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	13,832 - 13,841 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	13,842 - 13,925 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	13,926 - 14,009 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,010 - 14,093 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,094 - 14,103 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,104 - 14,125 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,126 - 14,147 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,148 - 14,169 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,170 - 14,179 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,180 - 14,197 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,198 - 14,215 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,216 - 14,233 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,234 - 14,243 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,244 - 14,261 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,262 - 14,271 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,272 - 14,293 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,294 - 14,331 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,332 - 14,353 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,354 - 14,363 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,364 - 14,385 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,386 - 14,407 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,408 - 14,429 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,430 - 14,439 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,440 - 14,463 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,464 - 14,473 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,474 - 14,491 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,492 - 14,509 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,510 - 14,527 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,528 - 14,537 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,538 - 14,555 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,556 - 14,573 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,574 - 14,591 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,592 - 14,601 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,602 - 14,619 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,620 - 14,629 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,630 - 14,661 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,662 - 14,693 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,694 - 14,715 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,716 - 14,725 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,726 - 14,743 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,744 - 14,761 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,762 - 14,779 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,780 - 14,789 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,790 - 14,807 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,808 - 14,817 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,818 - 14,845 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	14,846 - 14,867 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	14,868 - 14,889 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,890 - 14,899 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,900 - 14,921 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,922 - 14,931 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,932 - 14,959 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	14,960 - 14,975 anAnimationDesc.anAnimation  [@reload] (frameCount = 41; sectionFrameCount = 41)
+	14,976 - 15,047 anAnimation.theRotV.theAnimXValues (accumulatedTotal = 41)
+	15,048 - 15,085 anAnimation.theRotV.theAnimYValues (accumulatedTotal = 41)
+	15,086 - 15,123 anAnimation.theRotV.theAnimZValues (accumulatedTotal = 41)
+	15,124 - 15,175 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 41)
+	15,176 - 15,227 anAnimation.thePosV.theAnimYValues (accumulatedTotal = 41)
+	15,228 - 15,279 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 41)
+	15,280 - 15,283 anAnimationDesc.anAnimation [@reload] (unused empty data structure at the end of the list)
+	15,284 - 16,343 theMdlFileData.theSequenceDescs 5
+	16,344 - 16,491 aSeqDesc.theBoneWeights [idle] 37; aSeqDesc.theBoneWeights [raise] 37; aSeqDesc.theBoneWeights [fire] 37; aSeqDesc.theBoneWeights [lower] 37; aSeqDesc.theBoneWeights [reload] 37
+	16,492 - 16,493 aSeqDesc.theAnimDescIndexes [idle] 1
+	16,494 - 16,495 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	16,496 - 16,497 aSeqDesc.theAnimDescIndexes [raise] 1
+	16,498 - 16,499 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	16,500 - 16,579 aSeqDesc.theEvents [fire] 1
+	16,580 - 16,581 aSeqDesc.theAnimDescIndexes [fire] 1
+	16,582 - 16,583 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	16,584 - 16,585 aSeqDesc.theAnimDescIndexes [lower] 1
+	16,586 - 16,587 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	16,588 - 16,589 aSeqDesc.theAnimDescIndexes [reload] 1
+	16,590 - 16,591 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	16,592 - 16,671 theMdlFileData.theBodyParts 5
+	16,672 - 16,819 aModel Name = md5mesh.001.smd
+	16,820 - 16,967 aModel Name = md5mesh.smd
+	16,968 - 17,115 aModel Name = 
+	17,116 - 17,263 aModel Name = md5mesh.002.smd
+	17,264 - 17,411 aModel Name = md5mesh.004.smd
+	17,412 - 17,559 aModel Name = md5mesh.003.smd
+	17,560 - 17,707 aModel Name = md5mesh.005.smd
+	17,708 - 17,823 aModel.theMeshes 1
+	17,824 - 17,939 aModel.theMeshes 1
+	17,940 - 18,055 aModel.theMeshes 1
+	18,056 - 18,171 aModel.theMeshes 1
+	18,172 - 18,287 aModel.theMeshes 1
+	18,288 - 18,403 aModel.theMeshes 1
+	18,404 - 18,787 theMdlFileData.theTextures 6
+	18,788 - 18,795 theMdlFileData.theTexturePaths 2
+	18,796 - 18,807 theMdlFileData.theSkinFamilies 1
+	18,808 - 18,871 theMdlFileData.theLinearBoneTable header
+	18,872 - 19,019 theMdlFileData.theLinearBoneTable.theFlags
+	19,020 - 19,167 theMdlFileData.theLinearBoneTable.theParents
+	19,168 - 19,611 theMdlFileData.theLinearBoneTable.thePositions
+	19,612 - 20,203 theMdlFileData.theLinearBoneTable.theQuaternions
+	20,204 - 20,647 theMdlFileData.theLinearBoneTable.theRotations
+	20,648 - 22,423 theMdlFileData.theLinearBoneTable.thePoseToBoneDataColumns
+	22,424 - 22,867 theMdlFileData.theLinearBoneTable.thePositionScales
+	22,868 - 23,311 theMdlFileData.theLinearBoneTable.theRotationScales
+	23,312 - 23,903 theMdlFileData.theLinearBoneTable.theQAlignments
+	23,904 - 23,904 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	23,905 - 23,941 theMdlFileData.theNameCopy = weapons\quake4\v_q4_hyperblaster.mdl; theMdlFileData.theNameCopy = weapons\quake4\v_q4_hyperblaster.mdl
+	23,942 - 23,949 theSurfacePropName = default; theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aBone.theSurfacePropName = default; aHitboxSet.theName = default
+	23,950 - 23,956 aBone.theName = origin
+	23,957 - 23,964 aBone.theName = rt_elbo
+	23,965 - 23,972 aBone.theName = rt_wrst
+	23,973 - 23,977 aBone.theName = body
+	23,978 - 23,990 aBone.theName = front_rotate
+	23,991 - 24,007 aBone.theName = ammo_release_lft
+	24,008 - 24,023 aBone.theName = ammo_release_rt
+	24,024 - 24,030 aBone.theName = barrel
+	24,031 - 24,041 aBone.theName = lower_pump
+	24,042 - 24,051 aBone.theName = lft_shldr
+	24,052 - 24,060 aBone.theName = lft_elbo
+	24,061 - 24,069 aBone.theName = lft_wrst
+	24,070 - 24,080 aBone.theName = lft_mddl_1
+	24,081 - 24,091 aBone.theName = lft_mddl_2
+	24,092 - 24,102 aBone.theName = lft_mddl_3
+	24,103 - 24,112 aBone.theName = lft_ndx_1
+	24,113 - 24,122 aBone.theName = lft_ndx_2
+	24,123 - 24,132 aBone.theName = lft_ndx_3
+	24,133 - 24,143 aBone.theName = lft_pnky_1
+	24,144 - 24,154 aBone.theName = lft_pnky_2
+	24,155 - 24,165 aBone.theName = lft_pnky_3
+	24,166 - 24,176 aBone.theName = lft_ring_5
+	24,177 - 24,187 aBone.theName = lft_ring_2
+	24,188 - 24,198 aBone.theName = lft_ring_3
+	24,199 - 24,209 aBone.theName = lft_thmb_1
+	24,210 - 24,220 aBone.theName = lft_thmb_2
+	24,221 - 24,231 aBone.theName = lft_thmb_3
+	24,232 - 24,240 aBone.theName = rt_ndx_1
+	24,241 - 24,249 aBone.theName = rt_ndx_2
+	24,250 - 24,258 aBone.theName = rt_ndx_3
+	24,259 - 24,268 aBone.theName = rt_ring_1
+	24,269 - 24,278 aBone.theName = rt_ring_2
+	24,279 - 24,288 aBone.theName = rt_ring_3
+	24,289 - 24,298 aBone.theName = rt_thmb_1
+	24,299 - 24,308 aBone.theName = rt_thmb_2
+	24,309 - 24,318 aBone.theName = rt_thmb_3
+	24,319 - 24,327 aBone.theName = ammo_can
+	24,328 - 24,334 anAttachment.theName = muzzle
+	24,335 - 24,340 anAnimationDesc.theName = @idle
+	24,341 - 24,347 anAnimationDesc.theName = @raise
+	24,348 - 24,353 anAnimationDesc.theName = @fire
+	24,354 - 24,360 anAnimationDesc.theName = @lower
+	24,361 - 24,368 anAnimationDesc.theName = @reload
+	24,369 - 24,373 aSeqDesc.theName = idle
+	24,374 - 24,385 aSeqDesc.theActivityName = ACT_VM_IDLE
+	24,386 - 24,391 aSeqDesc.theName = raise
+	24,392 - 24,403 aSeqDesc.theActivityName = ACT_VM_DRAW
+	24,404 - 24,408 aSeqDesc.theName = fire
+	24,409 - 24,429 aSeqDesc.theActivityName = ACT_VM_PRIMARYATTACK
+	24,430 - 24,444 anEvent.theName = AE_MUZZLEFLASH
+	24,445 - 24,450 aSeqDesc.theName = lower
+	24,451 - 24,465 aSeqDesc.theActivityName = ACT_VM_HOLSTER
+	24,466 - 24,472 aSeqDesc.theName = reload
+	24,473 - 24,486 aSeqDesc.theActivityName = ACT_VM_RELOAD
+	24,487 - 24,490 aBodyPart.theName = gun
+	24,491 - 24,495 aBodyPart.theName = arms
+	24,496 - 24,499 aBodyPart.theName = can
+	24,500 - 24,507 aBodyPart.theName = battery
+	24,508 - 24,511 aBodyPart.theName = gui
+	24,512 - 24,520 aTexture.thePathFileName = mhb_lo_d
+	24,521 - 24,532 aTexture.thePathFileName = inview_arms
+	24,533 - 24,541 aTexture.thePathFileName = battery1
+	24,542 - 24,550 aTexture.thePathFileName = battery3
+	24,551 - 24,559 aTexture.thePathFileName = battery2
+	24,560 - 24,566 aTexture.thePathFileName = mhbgui
+	24,567 - 24,602 aTexturePath = models\weapons\quake4\hyperblaster\
+	24,603 - 24,625 aTexturePath = models\weapons\quake4\
+	24,626 - 24,627 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	24,628 - 24,628 END OF FILE + 1 (File size)
+========================
