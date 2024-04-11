@@ -2,7 +2,7 @@
 
 $modelname "weapons\quake4\c_q4_machinegun.mdl"
 
-$scale 1.55
+$scale 2
 
 $bodygroup "gun"
 {
@@ -93,7 +93,7 @@ $definebone "rt_thmb_3" "rt_thmb_2" -0.569563 -0.000021 0.000013 0.000049 9.3603
 $definebone "clip_jt" "origin" 0 -0.948243 -0.778408 0 0 89.999982 0 0 0 0 0 0
 $definebone "flashlight" "gun_jt" -9.889821 -0.024778 0 0 -178.070299 0 0 0 0 0 0 0
 
-$include "quake4.qci"
+$include "quake4_v2.qci"
 
 $sequence "idle" {
 	"v_q4_machinegun_anims\idle.smd"

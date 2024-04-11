@@ -1,10 +1,10 @@
 $definebone "ValveBiped.Bip01_L_Clavicle" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_UpperArm" "lft_shldr" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "ValveBiped.Bip01_L_Forearm" "lft_elbo" -3 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Forearm" "lft_elbo" 0 0 0 0 0 90 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Hand" "lft_wrst" 0 0 0 0 -40 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger0" "lft_thmb_1" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "ValveBiped.Bip01_L_Finger01" "lft_thmb_2" 1 -1 0 0 0 0 0 0 0 0 0 0
-$definebone "ValveBiped.Bip01_L_Finger02" "lft_thmb_3" 1 -0.85 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger01" "lft_thmb_2" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger02" "lft_thmb_3" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger1" "lft_ndx_1" 0 0 0 0 0 180 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger11" "lft_ndx_2" 0 0 0 0 0 180 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger12" "lft_ndx_3" 0 0 0 0 0 180 0 0 0 0 0 0
