@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\quake4\v_q4_grenadelauncher.mdl"
+$modelname "weapons\quake4\c_q4_grenadelauncher.mdl"
 
 $scale 1.75
 
