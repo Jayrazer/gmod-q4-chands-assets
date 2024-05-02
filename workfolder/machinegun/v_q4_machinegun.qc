@@ -15,6 +15,7 @@ $bodygroup "scope"
 $bodygroup "arms"
 {
 	blank
+	studio "md5mesh.002.smd"
 }
 $bodygroup "clip"
 {

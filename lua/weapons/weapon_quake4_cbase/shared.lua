@@ -1,4 +1,4 @@
-include("ai_translations.lua")
+include("weapons/weapon_quake4_base/ai_translations.lua")
 
 if SERVER then
 
@@ -395,6 +395,67 @@ function SWEP:Muzzleflash()
 		util.Effect(self.MuzzleName, fx)
 	end
 end
+
+hook.Add("InitPostEntity", "q4_chands_patch", function()
+
+	local blaster = weapons.GetStored("weapon_q4_blaster")
+	blaster.Base = "weapon_quake4_cbase"
+	
+	local darkmatter = weapons.GetStored("weapon_q4_darkmatter")
+	darkmatter.Base = "weapon_quake4_cbase"
+	
+	local gauntlet = weapons.GetStored("weapon_q4_gauntlet")
+	gauntlet.Base = "weapon_quake4_cbase"
+	
+	local nade = weapons.GetStored("weapon_q4_grenadelauncher")
+	nade.Base = "weapon_quake4_cbase"
+	
+	local hyper = weapons.GetStored("weapon_q4_hyperblaster")
+	hyper.Base = "weapon_quake4_cbase"
+	
+	local hyperbounce = weapons.GetStored("weapon_q4_hyperblaster_bounce")
+	hyperbounce.Base = "weapon_quake4_cbase"
+	
+	local lightning = weapons.GetStored("weapon_q4_lightning")
+	lightning.Base = "weapon_quake4_cbase"
+	
+	local mg = weapons.GetStored("weapon_q4_machinegun")
+	mg.Base = "weapon_quake4_cbase"
+	
+	local mgmag = weapons.GetStored("weapon_q4_machinegun_mag")
+	mgmag.Base = "weapon_quake4_cbase"
+	
+	local nail = weapons.GetStored("weapon_q4_nailgun")
+	nail.Base = "weapon_quake4_cbase"
+	
+	local nail2mag = weapons.GetStored("weapon_q4_nailgun_2mag")
+	nail2mag.Base = "weapon_quake4_cbase"
+	
+	local nailtrack = weapons.GetStored("weapon_q4_nailgun_track")
+	nailtrack.Base = "weapon_quake4_cbase"
+	
+	local napalm = weapons.GetStored("weapon_q4_napalmlauncher")
+	napalm.Base = "weapon_quake4_cbase"
+	
+	local rail = weapons.GetStored("weapon_q4_railgun")
+	rail.Base = "weapon_quake4_cbase"
+	
+	local railpen = weapons.GetStored("weapon_q4_railgun_pen")
+	railpen.Base = "weapon_quake4_cbase"
+	
+	local roxxet = weapons.GetStored("weapon_q4_rocketlauncher")
+	roxxet.Base = "weapon_quake4_cbase"
+	
+	local roxxetmp = weapons.GetStored("weapon_q4_rocketlauncher_mp")
+	roxxetmp.Base = "weapon_quake4_cbase"
+	
+	local shotgun = weapons.GetStored("weapon_q4_shotgun")
+	shotgun.Base = "weapon_quake4_cbase"
+	
+	local shotgunmag = weapons.GetStored("weapon_q4_shotgun_clip")
+	shotgunmag.Base = "weapon_quake4_cbase"
+	
+end)
 
 if CLIENT then
 

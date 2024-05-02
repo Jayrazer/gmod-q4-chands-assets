@@ -11,6 +11,7 @@ $bodygroup "gun"
 $bodygroup "arms"
 {
 	blank
+	studio "md5mesh.smd"
 }
 $bodygroup "mod"
 {
